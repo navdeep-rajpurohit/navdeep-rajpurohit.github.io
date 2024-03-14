@@ -38,12 +38,11 @@ const Hero = () => {
             new things.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 to-green-800 text-white">
-              Hire Me
-            </button>
+            <a href="/NavdeepResume2024.pdf" target="_blank">
             <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
               Download CV
             </button>
+            </a>
           </div>
         </motion.div>
         <motion.div
