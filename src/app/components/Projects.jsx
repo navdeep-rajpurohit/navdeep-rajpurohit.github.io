@@ -6,18 +6,19 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Fitbuff - PHP Application",
-    description: "A end to end solution platform for fitness which includes calorie calculator, shopping page, admin panel",
+    title: "Swiggy clone",
+    description:
+      "Swiggy clone to learn the frontend using react/tailwind and redux for state management with Live Swiggy APIs",
     image: "/images/projects/common.png",
-    gitUrl: "https://github.com/navdeep-rajpurohit/fitbuff",
+    gitUrl: "https://github.com/navdeep-rajpurohit/swiggy-clone",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "SoapCustoms",
-    description: "A customized application for home grown soap brand to make the recipes and calculate its costs and manage inventory",
+    title: "devs.shop - Ecommerce app",
+    description: "An ecommerce application using FAKE api",
     image: "/images/projects/common.png",
-    gitUrl: "https://github.com/navdeep-rajpurohit/soapcustoms",
+    gitUrl: "https://github.com/navdeep-rajpurohit/",
     previewUrl: "/",
   },
   {
@@ -27,7 +28,25 @@ const projectsData = [
     image: "/images/projects/common.png",
     gitUrl: "https://github.com/navdeep-rajpurohit/courseKaro",
     previewUrl: "/",
-  }
+  },
+  {
+    id: 4,
+    title: "Fitbuff - PHP Application",
+    description:
+      "A end to end solution platform for fitness which includes calorie calculator, shopping page, admin panel",
+    image: "/images/projects/common.png",
+    gitUrl: "https://github.com/navdeep-rajpurohit/fitbuff",
+    previewUrl: "/",
+  },
+  {
+    id: 5,
+    title: "SoapCustoms",
+    description:
+      "A customized application for home grown soap brand to make the recipes and calculate its costs and manage inventory",
+    image: "/images/projects/common.png",
+    gitUrl: "https://github.com/navdeep-rajpurohit/soapcustoms",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {

@@ -9,23 +9,26 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>HTML, CSS</li>
-        <li>Javascript</li>
+        <li>HTML, CSS, Tailwind</li>
+        <li>Javascript, Typescript</li>
         <li>NodeJS</li>
-        <li>React, NodeJS, NextJS</li>
+        <li>React, NextJS, Redux</li>
         <li>MYSQL, NOSQL</li>
         <li>Docker and Cloud</li>
       </ul>
-    )
+    ),
   },
   {
     title: "Education",
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Masters of Computer Application (2018-2021) - Ramaiah Institute of Technology, Bangalore</li>
+        <li>
+          Masters of Computer Application (2018-2021) - Ramaiah Institute of
+          Technology, Bangalore
+        </li>
       </ul>
-    )
+    ),
   },
   {
     title: "Experience",
@@ -34,9 +37,9 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Accenture (2021-Present) - Software Enginnering Analyst</li>
       </ul>
-    )
-  }
-]
+    ),
+  },
+];
 
 const About = () => {
   const [tab, setTab] = useState("skills");
@@ -83,7 +86,9 @@ const About = () => {
               Experience{" "}
             </TabSwitch>
           </div>
-          <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
+          <div className="mt-8">
+            {TAB_DATA.find((t) => t.id === tab).content}
+          </div>
         </div>
       </div>
     </section>
